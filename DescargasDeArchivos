@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f9;
+        }
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        a.btn-descarga {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        a.btn-descarga:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Archivos Disponibles</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Archivo</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Fila 1 -->
+            <tr>
+                <td>ABAI.bat</td>
+                <td><a href="ABAI.bat" download class="btn-descarga">Click Aquí</a></td>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+                <td>Archivo2.bat</td>
+                <td><a href="Archivo2.bat" download class="btn-descarga">Click Aquí</a></td>
+            </tr>
+            <!-- Fila 3 -->
+            <tr>
+                <td>Archivo3.exe</td>
+                <td><a href="Archivo3.exe" download class="btn-descarga">Click Aquí</a></td>
+            </tr>
+            <!-- Fila 4 -->
+            <tr>
+                <td>Archivo4.zip</td>
+                <td><a href="Archivo4.zip" download class="btn-descarga">Click Aquí</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
